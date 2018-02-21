@@ -1,0 +1,6 @@
+framework module Pods_BankEnroll {
+  umbrella header "Pods-BankEnroll-umbrella.h"
+
+  export *
+  module * { export * }
+}

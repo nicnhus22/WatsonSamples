@@ -1,0 +1,20 @@
+
+/*
+ Localizable.strings
+ Wavestone
+ 
+ Created by Nicolas Husser on 22/11/17.
+ Copyright © 2016 Nicolas Husser. All rights reserved.
+ */
+
+
+"credit_card_scanned"   = "carte de crédit scannée";
+"scan_my_credit_card"   = "scanner ma carte de crédit";
+"information_collected" = "informations recueillies";
+"dictate_information"   = "dicter vos informations";
+"we_re_listening"       = "on vous écoute";
+"credit_card_number"    = "numéro de carte";
+"expires_on"            = "expire le";
+"asking_ibm"            = "on demande à watson";
+"create_profile"        = "créer profil";
+"already_client"        = "déjà client ?";

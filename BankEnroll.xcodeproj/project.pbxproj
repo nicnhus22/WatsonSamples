@@ -7,21 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10D293971FBBA0F2FC6D8C8 /* Pods_BankEnroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8495B49F29912CA85DC4A19 /* Pods_BankEnroll.framework */; };
 		E248E42D1FC4259B00873D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E42C1FC4259B00873D17 /* AppDelegate.swift */; };
-		E248E42F1FC4259B00873D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E42E1FC4259B00873D17 /* ViewController.swift */; };
+		E248E42F1FC4259B00873D17 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E42E1FC4259B00873D17 /* HomeViewController.swift */; };
 		E248E4321FC4259B00873D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E248E4301FC4259B00873D17 /* Main.storyboard */; };
 		E248E4341FC4259B00873D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E248E4331FC4259B00873D17 /* Assets.xcassets */; };
 		E248E4371FC4259B00873D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E248E4351FC4259B00873D17 /* LaunchScreen.storyboard */; };
+		E248E43F1FC4355B00873D17 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E43E1FC4355B00873D17 /* CreateProfileViewController.swift */; };
+		E248E4421FC4358100873D17 /* ExistingClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E4411FC4358100873D17 /* ExistingClientViewController.swift */; };
+		E248E4451FC4377700873D17 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E4441FC4377700873D17 /* Constants.swift */; };
+		E248E4471FC4382300873D17 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E4461FC4382300873D17 /* Extensions.swift */; };
+		E248E44A1FC4414200873D17 /* CATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E248E4491FC4414200873D17 /* CATextField.swift */; };
+		E25CB59A1FC4821200945C3A /* SpeechToTextV1.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E25CB5921FC47DA900945C3A /* SpeechToTextV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E25CB59D1FC4948300945C3A /* gif_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = E25CB59C1FC4948300945C3A /* gif_loading.gif */; };
+		E25CB59F1FC57EA700945C3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E25CB59E1FC57EA700945C3A /* Localizable.strings */; };
+		E25CB5A41FC5839900945C3A /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25CB5A31FC5839900945C3A /* ApiKeys.plist */; };
+		E25CB5AA1FC6D2BA00945C3A /* VisualRecognitionMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CB5A91FC6D2BA00945C3A /* VisualRecognitionMapper.swift */; };
+		E25CB5AC1FC6D38C00945C3A /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CB5AB1FC6D38C00945C3A /* Routes.swift */; };
+		E25CB5AE1FC6D88E00945C3A /* VisualRecognitionV3.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E25CB5AD1FC6D88E00945C3A /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E25F09F71FDD886800D0735B /* SpeechToTextV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25CB5921FC47DA900945C3A /* SpeechToTextV1.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E25CB5991FC481FA00945C3A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E25CB59A1FC4821200945C3A /* SpeechToTextV1.framework in CopyFiles */,
+				E25CB5AE1FC6D88E00945C3A /* VisualRecognitionV3.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BD6B229DD859E6CF8EF734A4 /* Pods-BankEnroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankEnroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BankEnroll/Pods-BankEnroll.debug.xcconfig"; sourceTree = "<group>"; };
 		E248E4291FC4259B00873D17 /* BankEnroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankEnroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E248E42C1FC4259B00873D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E248E42E1FC4259B00873D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E248E42E1FC4259B00873D17 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E248E4311FC4259B00873D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E248E4331FC4259B00873D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E248E4361FC4259B00873D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E248E4381FC4259B00873D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E248E43E1FC4355B00873D17 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		E248E4411FC4358100873D17 /* ExistingClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingClientViewController.swift; sourceTree = "<group>"; };
+		E248E4441FC4377700873D17 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E248E4461FC4382300873D17 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E248E4491FC4414200873D17 /* CATextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATextField.swift; sourceTree = "<group>"; };
+		E25CB58D1FC4719600945C3A /* BankEnroll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankEnroll-Bridging-Header.h"; sourceTree = "<group>"; };
+		E25CB5921FC47DA900945C3A /* SpeechToTextV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeechToTextV1.framework; path = Carthage/Build/iOS/SpeechToTextV1.framework; sourceTree = "<group>"; };
+		E25CB59C1FC4948300945C3A /* gif_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif_loading.gif; sourceTree = "<group>"; };
+		E25CB59E1FC57EA700945C3A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E25CB5A31FC5839900945C3A /* ApiKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		E25CB5A91FC6D2BA00945C3A /* VisualRecognitionMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualRecognitionMapper.swift; sourceTree = "<group>"; };
+		E25CB5AB1FC6D38C00945C3A /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		E25CB5AD1FC6D88E00945C3A /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VisualRecognitionV3.framework; path = Carthage/Build/iOS/VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		E25F09F51FDD856A00D0735B /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
+		E2901413BDE2A4F4FA65109A /* Pods-BankEnroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankEnroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-BankEnroll/Pods-BankEnroll.release.xcconfig"; sourceTree = "<group>"; };
+		E8495B49F29912CA85DC4A19 /* Pods_BankEnroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BankEnroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +74,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10D293971FBBA0F2FC6D8C8 /* Pods_BankEnroll.framework in Frameworks */,
+				E25F09F71FDD886800D0735B /* SpeechToTextV1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		657D7BDD0591CF077A1B727C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E25F09F51FDD856A00D0735B /* Speech.framework */,
+				E8495B49F29912CA85DC4A19 /* Pods_BankEnroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF3B4790EFF4204A91FD449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B229DD859E6CF8EF734A4 /* Pods-BankEnroll.debug.xcconfig */,
+				E2901413BDE2A4F4FA65109A /* Pods-BankEnroll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E248E4201FC4259B00873D17 = {
 			isa = PBXGroup;
 			children = (
+				E25CB5AD1FC6D88E00945C3A /* VisualRecognitionV3.framework */,
+				E25CB5921FC47DA900945C3A /* SpeechToTextV1.framework */,
 				E248E42B1FC4259B00873D17 /* BankEnroll */,
 				E248E42A1FC4259B00873D17 /* Products */,
+				6FF3B4790EFF4204A91FD449 /* Pods */,
+				E25CB59B1FC4946800945C3A /* Supporting Files */,
+				657D7BDD0591CF077A1B727C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,97 @@
 		E248E42B1FC4259B00873D17 /* BankEnroll */ = {
 			isa = PBXGroup;
 			children = (
+				E25CB5A51FC6D1DA00945C3A /* domain */,
+				E248E4481FC4413600873D17 /* custom views */,
+				E248E4431FC4376900873D17 /* helpers */,
+				E248E4401FC4356400873D17 /* controllers */,
 				E248E42C1FC4259B00873D17 /* AppDelegate.swift */,
-				E248E42E1FC4259B00873D17 /* ViewController.swift */,
 				E248E4301FC4259B00873D17 /* Main.storyboard */,
 				E248E4331FC4259B00873D17 /* Assets.xcassets */,
 				E248E4351FC4259B00873D17 /* LaunchScreen.storyboard */,
 				E248E4381FC4259B00873D17 /* Info.plist */,
+				E25CB58D1FC4719600945C3A /* BankEnroll-Bridging-Header.h */,
 			);
 			path = BankEnroll;
+			sourceTree = "<group>";
+		};
+		E248E4401FC4356400873D17 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E248E42E1FC4259B00873D17 /* HomeViewController.swift */,
+				E248E43E1FC4355B00873D17 /* CreateProfileViewController.swift */,
+				E248E4411FC4358100873D17 /* ExistingClientViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		E248E4431FC4376900873D17 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E248E4441FC4377700873D17 /* Constants.swift */,
+				E248E4461FC4382300873D17 /* Extensions.swift */,
+				E25CB5AB1FC6D38C00945C3A /* Routes.swift */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		E248E4481FC4413600873D17 /* custom views */ = {
+			isa = PBXGroup;
+			children = (
+				E248E4491FC4414200873D17 /* CATextField.swift */,
+			);
+			name = "custom views";
+			sourceTree = "<group>";
+		};
+		E25CB59B1FC4946800945C3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB5A21FC5838400945C3A /* keys */,
+				E25CB5A11FC57ED200945C3A /* strings */,
+				E25CB5A01FC57EC900945C3A /* gifs */,
+			);
+			name = "Supporting Files";
+			path = BankEnroll;
+			sourceTree = "<group>";
+		};
+		E25CB5A01FC57EC900945C3A /* gifs */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB59C1FC4948300945C3A /* gif_loading.gif */,
+			);
+			path = gifs;
+			sourceTree = "<group>";
+		};
+		E25CB5A11FC57ED200945C3A /* strings */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB59E1FC57EA700945C3A /* Localizable.strings */,
+			);
+			path = strings;
+			sourceTree = "<group>";
+		};
+		E25CB5A21FC5838400945C3A /* keys */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB5A31FC5839900945C3A /* ApiKeys.plist */,
+			);
+			path = keys;
+			sourceTree = "<group>";
+		};
+		E25CB5A51FC6D1DA00945C3A /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB5A61FC6D1E700945C3A /* visual */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		E25CB5A61FC6D1E700945C3A /* visual */ = {
+			isa = PBXGroup;
+			children = (
+				E25CB5A91FC6D2BA00945C3A /* VisualRecognitionMapper.swift */,
+			);
+			name = visual;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E248E43B1FC4259B00873D17 /* Build configuration list for PBXNativeTarget "BankEnroll" */;
 			buildPhases = (
+				B68875CC06E8F8DDFFC48F72 /* [CP] Check Pods Manifest.lock */,
 				E248E4251FC4259B00873D17 /* Sources */,
 				E248E4261FC4259B00873D17 /* Frameworks */,
 				E248E4271FC4259B00873D17 /* Resources */,
+				28497D98E0FB45F18770BD77 /* [CP] Embed Pods Frameworks */,
+				1B8AB0F77BCB8066C30B70A1 /* [CP] Copy Pods Resources */,
+				E25CB5991FC481FA00945C3A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -92,11 +249,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = Wavetsone;
+				ORGANIZATIONNAME = Wavestone;
 				TargetAttributes = {
 					E248E4281FC4259B00873D17 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = GP626X9TCW;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,21 +282,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25CB59F1FC57EA700945C3A /* Localizable.strings in Resources */,
 				E248E4371FC4259B00873D17 /* LaunchScreen.storyboard in Resources */,
 				E248E4341FC4259B00873D17 /* Assets.xcassets in Resources */,
+				E25CB59D1FC4948300945C3A /* gif_loading.gif in Resources */,
 				E248E4321FC4259B00873D17 /* Main.storyboard in Resources */,
+				E25CB5A41FC5839900945C3A /* ApiKeys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8AB0F77BCB8066C30B70A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankEnroll/Pods-BankEnroll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28497D98E0FB45F18770BD77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BankEnroll/Pods-BankEnroll-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cloudinary/Cloudinary.framework",
+				"${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cloudinary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gifu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BankEnroll/Pods-BankEnroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68875CC06E8F8DDFFC48F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BankEnroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E248E4251FC4259B00873D17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E248E42F1FC4259B00873D17 /* ViewController.swift in Sources */,
+				E248E4451FC4377700873D17 /* Constants.swift in Sources */,
+				E248E4471FC4382300873D17 /* Extensions.swift in Sources */,
+				E248E42F1FC4259B00873D17 /* HomeViewController.swift in Sources */,
+				E248E44A1FC4414200873D17 /* CATextField.swift in Sources */,
+				E248E43F1FC4355B00873D17 /* CreateProfileViewController.swift in Sources */,
+				E248E4421FC4358100873D17 /* ExistingClientViewController.swift in Sources */,
 				E248E42D1FC4259B00873D17 /* AppDelegate.swift in Sources */,
+				E25CB5AC1FC6D38C00945C3A /* Routes.swift in Sources */,
+				E25CB5AA1FC6D2BA00945C3A /* VisualRecognitionMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,7 +417,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -234,7 +467,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -257,26 +491,45 @@
 		};
 		E248E43C1FC4259B00873D17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6B229DD859E6CF8EF734A4 /* Pods-BankEnroll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GP626X9TCW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BankEnroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wavestone.BankEnroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankEnroll/BankEnroll-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E248E43D1FC4259B00873D17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2901413BDE2A4F4FA65109A /* Pods-BankEnroll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GP626X9TCW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BankEnroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wavestone.BankEnroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BankEnroll/BankEnroll-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +553,7 @@
 				E248E43D1FC4259B00873D17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
